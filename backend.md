@@ -145,7 +145,7 @@ För *väl godkänt* krävs dessutom
 
 ---
 ## Inlämning
-Du ska lämna in på LearnPoint: ditt repo och länkar till GitHub och din publicerade app.
+Du ska lämna in på ITHS distans: ditt repo och länkar till GitHub och din publicerade app.
 + Fil: ladda upp repot som en **zip-fil** (ta inte med node_modules)
 + Kommentar: skriv länkarna till både **GitHub** och **publicerad app**
 
