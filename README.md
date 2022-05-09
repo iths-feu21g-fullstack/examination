@@ -7,13 +7,18 @@ Webbplatsen är en spinoff på [Kittenwar](http://www.kittenwar.com), en hemsida
 Uppgiften är uppdelad i två delar: **backend** och **fullstack**. Del 1 handlar om att bygga ett API. Du ska i del 2 bygga en frontend till API:et med React. Båda delarna ska publiceras online på Heroku.
 
 1. [Del 1 - backend](backend.md)
-1. Del 2 - frontend
+1. [Del 2 - frontend](frontend.md)
 
 
-### Hur börjar jag?
-1. Skapa ett nytt, tomt Node-projekt
-1. Installera Express och andra paket
-1. Klona detta repo till en annan mapp. Kopiera över filen `data.json` och mappen `hamsters/` till ditt projekt.
+### Hur börjar jag? (fullstack)
+Vi går igenom detta på en lektion. Leta upp presentationen eller inspelningen på Teams. Här är en förkortad variant:
+1. Skapa ett *frontend-projekt* med `npm create vite@latest`. Välj React och TypeSript. Du ska alltså inte utgå från det här repot, utan göra ett nytt, eget.
+1. `cd namnet-på-ditt-projekt/`
+1. Lägg till alla filer i git med `git init`.
+1. Installera alla npm-paket du behöver för backend och frontend. De ska alltså installeras i samma projekt. Du ska bara ha ett git-repo.
+1. Skapa mappen `backend`. Kopiera över din backend-kod från backend-inlämningen in i den mappen.
+1. Tänk på att använda *environment variables* och *.gitignore* för att undvika att hemligheter ligger i ditt repo.
+1. Publicera till Heroku.
 
 
 ### Test-skript
